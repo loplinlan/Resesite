@@ -7,12 +7,15 @@ html{
 	scroll-behavior: smooth;
 }
 
+
+
+
+
 .Line{
 	border: 1px solid #656363 !important;
 	width: 100%;
 	color: white;
 }
-
 .Top_Most,.Top_Most a{
 	outline: none;
 	color: black;
@@ -24,7 +27,6 @@ html{
 	background: url("../image/kiyomizu-dera-temple-kyoto.jpg");
 	width: 100%;
 	height: auto;
-	margin: 0;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -36,7 +38,6 @@ html{
 	color: #b0279f;
 	font-size: 50px;
 	line-height: 80px;
-	padding: 0px;
 	font-weight: bold;
 }
 
@@ -90,7 +91,12 @@ nav ul li a.active,nav ul li a:hover{
 	display: none;
 }
 
-@media (max-width: 990px){
+
+
+
+
+/*Responsive navbar and "logo"*/
+@media (max-width: 1199px){
 	.logo{
 		font-size: 30px;
 	}
@@ -105,15 +111,14 @@ nav ul li a.active,nav ul li a:hover{
 		width: 100%;
 		height: 100vh;
 		background: #111111e3;
-		top: 72px;
+		top: 74px;
 		left: -100%;
 		text-align: center;
 		transition: all .5s;
-		
 	}
 	nav ul li{
 		display: block;
-		margin: 50px 0;
+		margin: 50px;
 		line-height: 30px;
 	}
 	nav ul li a{
@@ -121,7 +126,6 @@ nav ul li a.active,nav ul li a:hover{
 	}
 	a:hover,a.active{
 		background: #b1d22d;
-		color: #0082e6;
 	}
 	#check:checked ~ ul{
 		left: 0;
@@ -142,13 +146,16 @@ nav ul li a.active,nav ul li a:hover{
 	}
 }
 
+
+
+
+
 .main-text{
 	color: #b0279f;
 	text-align: center;
 	padding-top: 320px;
 	font-family: 'Roboto',sans-serif;
-	/*letter-spacing: 0.1em;*/
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 700;
 }
 .main-text-two{
@@ -156,11 +163,11 @@ nav ul li a.active,nav ul li a:hover{
 	text-align: center;
 	font-family: 'Roboto',sans-serif;
 	letter-spacing: 0.1em;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 }
 
-/*makes main text and main text 2 responsive*/
+/*main text and main text 2 responsive*/
 @media (max-width: 990px) {
 	.main-text{
 		font-size: xx-large;
@@ -176,44 +183,42 @@ nav ul li a.active,nav ul li a:hover{
 	}
 }
 
-/*Box around search etc.*/
+
+
+
+
+/*Box design etc.*/
 .box{
 	height: 100%;
 	width: 100%;
 	background-color: #4441414f;
-	padding: 20px 20px 10px 20px;
+	padding: 30px;
 	margin-top: 120px;
-	margin-bottom: 40px !important;
+	margin-bottom: 40px;
 }
 .box h4{
-	font-weight: 400 !important;
+	font-weight: 700;
 }
 h4{
-	color: #ffffff !important;
-	font-weight: 300 !important;
-	font-size: 20px !important;
+	color: white;
+	font-weight: 300;
+	font-size: 15px !important; 
+	/* !important = overrides all previous styling rules/increases priority of an element*/
 }
 i{
+	/*fa icon design*/
 	color: #ca11ca;
 	font-size: 15px !important;
 }
 .text-edit{
 	background: white;
 	border: none;
-	outline: none !important;
 	color: #757575;
-}
-.text-edits{
-	background: transparent;
-	border: none;
-	outline: none !important;
-	color: white;
-	font-size: 15px;
 }
 .search-body i{
 	color: #000000;
 	font-size: 15px;
-	padding: 17px 20px 17px 20px;
+	padding: 17px;
 }
 .search-btn{
 	background-color: #b1d22d;
@@ -224,14 +229,18 @@ i{
 	width: 100%;
 }
 
+
+
+
+
+/*Design in "services" section*/
 #SERVICES{
 	margin-top: 40px;
 }
 .ser-name h2{
 	text-align: center;
-	letter-spacing: 0.1em;
 	font-family: 'Roboto',sans-serif;
-	/*font-weight: 700;*/
+	font-weight: 700;
 	margin: 80px 0px 18px 0px;
 }
 .small-line{
@@ -243,8 +252,7 @@ i{
 }
 .ser-name h2{
 	font-family: 'Roboto',sans-serif;
-	letter-spacing: 0em;
-	font-size: 23px;
+	font-size: 22px;
 	color: #030303;
 	padding: 20px;
 }
