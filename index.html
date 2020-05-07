@@ -1,166 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    
-	<title>Tour and Travel</title>
-	<!--main css-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--Bootstrap css-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!--Google Roboto Font-->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
-	<!--Font awesome-->
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link to the css-file-->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<!-- jQuery library -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<title>Earth</title>
 </head>
 
-
-
-
-
 <body>
-	<header id="HOME">
-		<div class="home-background">
-			<div class="Header-top">
-				<div id="navbar">
-					<div class="Top_Most">
-						<a href="#">(+46)70-123-4567 | info@WS.com</a>
-					</div>
-					<div class="Line"></div>
+	<!--side menu-->
+	<div class="background">
+		<div class="nav">
+			<a class="a active"href="#">HOME</a>
+			<a class="b" href="#">ABOUT</a>
+			<a class="c" href="#">GALLERY</a>
+			<a class="d" href="#">CONTACT US</a>
+		</div>
+
+		<div class="content">
+			<div class="home">
+				<h2>Earth</h2>
+				<h3>it's a nice place</h3>
+			</div>
+
+			<div class="about">
+				<p>“Its the not the Destination, It's the journey.”<br>
+				Ralph Waldo Emerson, Self-Reliance</p>
+				
+			</div>
+			
+			<div class="gallery">
+				<div class="pictures">
+					<img src="images/brazil.jpg">
 				</div>
-
-				<div id="navba">
-					<div class="container top-con">
-						<nav>
-							<!-- "responsive" bar menu -->
-							<input type="checkbox" id="check">
-							<label for="check" class="checkbtn">
-								<i class="fa fa-bars"></i>
-							</label>
-
-							<label class="logo">Japan</label>
-							<ul>
-								<li><a href="#HOME">HOME</a></li>
-								<li><a href="#SERVICES">SERVICES</a></li>
-								<li><a href="#">TOP DESTINATION</a></li>
-								<li><a href="#">TRENDING</a></li>
-								<li><a href="#">ABOUT</a></li>
-								<li><a href="#">CONTACT US</a></li>
-							</ul>
-						</nav>
-					</div>
+				<div class="pictures">
+					<img src="images/china-wall.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/golden-gate.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/golden-temple.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/india.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/paris.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/singa.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/main.jpg">
+				</div>
+				<div class="pictures">
+					<img src="images/statue-of-liberty.jpg">
 				</div>
 			</div>
 
-
-
-			<h1 class="main-text">ENJOY YOUR DREAM VACATION</h1>
-			<h3 class="main-text-two">Travel to the sunrise land</h3>
-
-
-
-			<div class="container"> <!--Bootstrap-->
-				<div class="box">
-					<div class="row"> 
-						<div class="col-md-4 box-size">
-							<h4>Destination</h4>
-							<i class="fa fa-map-marker icon-color">
-								<input type="text" class="text-edit" name="text" placeholder="where are you going?">
-							</i>
-							<hr>
-						</div>
-
-						<div class="col-md-3 box-size">
-							<h4>Date</h4>
-							<i class="fa fa-calendar icon-color">
-								<input type="date" name="text" class="text-edit">
-							</i>
-							<hr>
-						</div>
-
-						<div class="col-md-3 box-size">
-							<h4>Rooms and Guests</h4>
-							<i class="fa fa-user-plus icon-color">
-								<input type="number" name="text" class="text-edit" placeholder="room + guests" >
-							</i>
-							<hr>
-						</div>
-
-						<div class="col-md-2">
-							<div class="search-body">
-								<button type="button" class="search-btn">
-									<i class="fa fa-search">Search</i>
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
+	<!--	<div class="contactus"></div>
+			<div class="contactform">
+				<form action="index.html" method="post">
+					<input type="text" name="" class="inputtext" value="First Name">
+					<input type="text" name="" class="inputtext" value="Last Name">
+					<input type="text" name="" class="inputtext" value="Email">
+					<textarea cols="4" rows="6" class="inputmessage">Type your message here</textarea>
+					<input type="button" name="" class="submitbutton" value="Submit">
+				</form>
 			</div>
-		</div>
-	</header>
-
-	
-
+			</div>-->
+	</div>
+</body>
 
 
-	<section id="SERVICES"> <!--booking section-->
-		<div class="ser-name">
-			<h2>Services</h2>
-			<span class="small-line"></span>
-		</div>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/rail.png">
-						<h2>SHINKANSEN</h2>
-						<p>try a ride with the worlds fastest train</p>
-					</div>
-				</div>
+	<!-- jquery design for the side menu -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('a').click(function(){
+				//alert("i am click");
+				var selected = $(this);
+				$('a').removeClass('active');
+				$(selected).addClass('active');
+			});
 
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/hotel.png">
-						<h2>HOTELS</h2>
-						<p>See what hotel that suits your needs</p>
-					</div>
-				</div>
+			var $a = $('.a'),
+			$b = $('.b'),
+			$c = $('.c'),
+			$d = $('.d'),
+			$home = $('.home'),
+			$about = $('.about'),
+			$gallery = $('.gallery');
+			$contactus = $('.contactus');
 
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/plane.png">
-						<h2>FLIGHT BOOKING</h2>
-						<p>See Japan from the skies</p>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/ticket.png">
-						<h2>EVENTS & TICKETS</h2>
-						<p>Buy tickets for events etc. here</p>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/ship.png">
-						<h2>CRUISE</h2>
-						<p>Book a cruise here</p>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 ser-name">
-					<div class="ser-box">
-						<img src="image/mou.png">
-						<h2>SIGHTSEEING</h2>
-						<p>Embark on a journey</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+			$a.click(function(){
+				$home.fadeIn();
+				$about.fadeOut();
+				$gallery.fadeOut();
+				$contactus.fadeOut();
+			});
+			$b.click(function(){
+				$about.fadeIn();
+				$home.fadeOut();
+				$gallery.fadeOut();
+				$contactus.fadeOut();
+			});
+			$c.click(function(){
+				$gallery.fadeIn();
+				$home.fadeOut();
+				$about.fadeOut();
+				$contactus.fadeOut();
+			});
+			$d.click(function(){
+				$contactus.fadeIn();
+				$home.fadeOut();
+				$about.fadeOut();
+				$gallery.fadeOut();
+			});
+		});
+	</script>
 </body>
 </html>

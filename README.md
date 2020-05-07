@@ -1,2 +1,2 @@
-# Resesite
-This is a travel site
+# website-colab-group-4
+Group assignment with HTML and CSS
